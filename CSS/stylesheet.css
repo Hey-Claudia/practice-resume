@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#header {
+  height: 100vh;
+  background: linear-gradient(rgba (0, 0, 0, 0.6), (rgba 0, 0, 0, 0.6)),
+    url(/Images/aperture-vintage-3FS0H6gB3uY-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.user-box {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
